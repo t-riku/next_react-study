@@ -14,7 +14,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Headline title="About Page" page="about" />
+        <Headline
+          title="About Page"
+          page="about"
+          number={1111}
+          array={[1, 2, 3]}
+          // obj={{ foo: "foo", bar: 3 }}
+          bool={true}
+          onClick={() => alert("クリック！")}
+        >
+          <code className={styles.code}>pages/index.tsx</code>
+        </Headline>
 
         <Links />
       </main>

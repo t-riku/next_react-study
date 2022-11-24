@@ -14,7 +14,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Headline title="Index Page" page="index" />
+        <Headline
+          title="Index Page"
+          page="index"
+          onClick={() => alert("クリック！")}
+        >
+          <code className={styles.code}>pages/index.tsx</code>
+        </Headline>
 
         <Links />
       </main>
