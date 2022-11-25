@@ -23,7 +23,7 @@ export default function Home() {
           bool={true}
           onClick={() => alert("クリック！")}
         >
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>pages/about.tsx</code>
         </Headline>
 
         <Links />

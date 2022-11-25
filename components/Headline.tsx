@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import classes from "./Headline.module.css";
 
 type Mainpage = {
   title: string;
@@ -21,8 +21,8 @@ export function Headline(props: Mainpage) {
   console.log(props);
   return (
     <div>
-      <h1 className={styles.title}>{props.title}</h1>
-      <p className={styles.description}>
+      <h1 className={classes.title}>{props.title}</h1>
+      <p className={classes.description}>
         Get started by editing {props.children}
       </p>
 
